@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DarkExpert — Your personal expert for the dark factory</title>
+  <meta name="description" content="DarkExpert takes vague human requests and turns them into durable, agent-friendly execution — with memory, root cause analysis, task decomposition, and harness-style scaffolding built in.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>◆</text></svg>">
+</head>
+<body>
+
+  <!-- ===== NAV ===== -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#hero" class="nav__logo">
+        <span class="nav__logo-icon">◆</span> DarkExpert
+      </a>
+      <button class="nav__toggle" id="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#why" class="nav__link">Why</a></li>
+        <li><a href="#what" class="nav__link">What</a></li>
+        <li><a href="#how" class="nav__link">How</a></li>
+        <li><a href="#compare" class="nav__link">Compare</a></li>
+        <li><a href="#install" class="nav__link">Install</a></li>
+        <li><a href="#example" class="nav__link">Example</a></li>
+        <li><a href="#install" class="nav__link nav__link--cta">Get started</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="hero">
+    <div class="container">
+      <div class="hero__content">
+        <p class="hero__label">Personal expert agent</p>
+        <h1 class="hero__title">Your personal expert for the dark factory</h1>
+        <p class="hero__sub">DarkExpert takes vague human requests and turns them into durable, agent-friendly execution&nbsp;— with memory, root cause analysis, task decomposition, and harness-style scaffolding built&nbsp;in.</p>
+        <div class="hero__ctas">
+          <a href="#install" class="btn btn--primary">Install DarkExpert</a>
+          <a href="#how" class="btn btn--secondary">See how it works</a>
+        </div>
+      </div>
+      <div class="hero__diagram">
+        <div class="diagram">
+          <div class="diagram__node diagram__node--you">You</div>
+          <div class="diagram__line"></div>
+          <div class="diagram__node diagram__node--expert">DarkExpert</div>
+          <div class="diagram__line"></div>
+          <div class="diagram__capabilities">
+            <span>Plan</span>
+            <span>RCA</span>
+            <span>Memory</span>
+            <span>Decomposition</span>
+            <span>Unsticking</span>
+          </div>
+          <div class="diagram__line"></div>
+          <div class="diagram__node diagram__node--exec">Agent execution</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WHY ===== -->
+  <section class="section" id="why">
+    <div class="container">
+      <p class="section__label">The problem</p>
+      <h2 class="section__title">Why this exists</h2>
+      <div class="why__grid">
+        <div class="why__text">
+          <p class="why__lead">Raw human requests are not agent-ready. Most people do not want to manually rewrite every task into perfect execution scaffolding.</p>
+          <ul class="why__list">
+            <li>Your idea is not shaped for bare-metal agent execution.</li>
+            <li>Prompts drift. Context bloats. Agents stall.</li>
+            <li>The real leverage is in translating intent into durable work.</li>
+            <li>Most people do this manually, badly, every single time.</li>
+            <li>DarkExpert exists to be that translation layer.</li>
+          </ul>
+        </div>
+        <div class="why__aside">
+          <div class="why__card">
+            <p class="why__card-label">The gap</p>
+            <p class="why__card-text">Useful human leverage is at the translation and steering layer — not in micromanaging every step.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WHAT ===== -->
+  <section class="section section--alt" id="what">
+    <div class="container">
+      <p class="section__label">The product</p>
+      <h2 class="section__title">What DarkExpert actually does</h2>
+      <p class="section__intro">DarkExpert is a specialized parent expert agent. It sits between the human and the execution system.</p>
+      <div class="features">
+        <div class="feature-card">
+          <div class="feature-card__icon">⟐</div>
+          <h3 class="feature-card__title">Translation</h3>
+          <p class="feature-card__text">Turns vague human intent into structured, executable tasks. Extracts constraints, clarifies scope, frames for agent consumption.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">◈</div>
+          <h3 class="feature-card__title">Memory</h3>
+          <p class="feature-card__text">Keeps durable project knowledge without turning into bloated sludge. Priorities, context, and decisions persist across sessions.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">⬡</div>
+          <h3 class="feature-card__title">Durability</h3>
+          <p class="feature-card__text">Improves task shape, chunk size, validation, and recovery when agents get stuck. Work gets better over time, not more fragile.</p>
+        </div>
+      </div>
+      <p class="section__supporting">DarkExpert is not "just more reasoning." It is a specialist translation and steering layer. It understands the human side, the agent side, and the harness needed to bridge them.</p>
+    </div>
+  </section>
+
+  <!-- ===== HOW ===== -->
+  <section class="section" id="how">
+    <div class="container">
+      <p class="section__label">The workflow</p>
+      <h2 class="section__title">How it works</h2>
+      <div class="steps">
+        <div class="step">
+          <div class="step__number">1</div>
+          <h3 class="step__title">You give it the messy version</h3>
+          <p class="step__text">A bug, a project idea, a refactor goal, a vague system problem, a half-formed plan.</p>
+        </div>
+        <div class="step__connector"></div>
+        <div class="step">
+          <div class="step__number">2</div>
+          <h3 class="step__title">DarkExpert shapes the work</h3>
+          <p class="step__text">It clarifies intent, extracts constraints, breaks work into better chunks, adds structure, and frames the task for strong agent execution.</p>
+        </div>
+        <div class="step__connector"></div>
+        <div class="step">
+          <div class="step__number">3</div>
+          <h3 class="step__title">It drives the execution harness</h3>
+          <p class="step__text">It produces durable prompts, workflows, memory, validation paths, and follow-up steps.</p>
+        </div>
+        <div class="step__connector"></div>
+        <div class="step">
+          <div class="step__number">4</div>
+          <h3 class="step__title">It keeps the system moving</h3>
+          <p class="step__text">When agents stall, DarkExpert identifies stuck points, reduces chunk size, improves the next attempt, and keeps progress compounding.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== COMPARE ===== -->
+  <section class="section section--alt" id="compare">
+    <div class="container">
+      <p class="section__label">The difference</p>
+      <h2 class="section__title">Not another generic AI assistant</h2>
+      <div class="compare">
+        <div class="compare__col compare__col--generic">
+          <h3 class="compare__heading">Generic chat assistant</h3>
+          <ul class="compare__list">
+            <li><span class="compare__icon compare__icon--no">✕</span> Answers questions</li>
+            <li><span class="compare__icon compare__icon--no">✕</span> Forgets structure</li>
+            <li><span class="compare__icon compare__icon--no">✕</span> Weak at sustained execution</li>
+            <li><span class="compare__icon compare__icon--no">✕</span> Poor at durable task shaping</li>
+            <li><span class="compare__icon compare__icon--no">✕</span> Context degrades easily</li>
+          </ul>
+        </div>
+        <div class="compare__col compare__col--dark">
+          <h3 class="compare__heading">DarkExpert</h3>
+          <ul class="compare__list">
+            <li><span class="compare__icon compare__icon--yes">◆</span> Translates intent into execution</li>
+            <li><span class="compare__icon compare__icon--yes">◆</span> Carries durable project memory</li>
+            <li><span class="compare__icon compare__icon--yes">◆</span> Improves chunking and task framing</li>
+            <li><span class="compare__icon compare__icon--yes">◆</span> Helps unstick agents</li>
+            <li><span class="compare__icon compare__icon--yes">◆</span> Built for harness-style workflows</li>
+            <li><span class="compare__icon compare__icon--yes">◆</span> Built for real projects, not just chat</li>
+          </ul>
+        </div>
+      </div>
+      <p class="compare__line">DarkExpert is for people who want results, not just responses.</p>
+    </div>
+  </section>
+
+  <!-- ===== INSTALL ===== -->
+  <section class="section" id="install">
+    <div class="container">
+      <p class="section__label">Get started</p>
+      <h2 class="section__title">Install and get running</h2>
+      <p class="install__note">No giant enterprise setup. No ceremony. Install it, point it at your work, and start.</p>
+      <div class="install__steps">
+        <div class="install__step">
+          <div class="install__step-num">1</div>
+          <div class="install__step-body">
+            <h3>Install</h3>
+            <div class="code-block">
+              <pre><code>npm install -g darkexpert@latest</code></pre>
+              <button class="code-block__copy" data-copy="npm install -g darkexpert@latest" aria-label="Copy command">
+                <span class="code-block__copy-icon">⎘</span>
+                <span class="code-block__copy-text">Copy</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="install__step">
+          <div class="install__step-num">2</div>
+          <div class="install__step-body">
+            <h3>Run onboarding</h3>
+            <div class="code-block">
+              <pre><code>darkexpert onboard --install-daemon</code></pre>
+              <button class="code-block__copy" data-copy="darkexpert onboard --install-daemon" aria-label="Copy command">
+                <span class="code-block__copy-icon">⎘</span>
+                <span class="code-block__copy-text">Copy</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="install__step">
+          <div class="install__step-num">3</div>
+          <div class="install__step-body">
+            <h3>Connect your stack</h3>
+            <p>During onboarding, DarkExpert guides you through:</p>
+            <ul class="install__checklist">
+              <li>API auth setup (OpenAI, Anthropic, or compatible)</li>
+              <li>Name your expert instance</li>
+              <li>Choose communication surface</li>
+              <li>Link Telegram if supported</li>
+              <li>Point at project folders</li>
+              <li>Set memory and workspace paths</li>
+            </ul>
+          </div>
+        </div>
+        <div class="install__step">
+          <div class="install__step-num">4</div>
+          <div class="install__step-body">
+            <h3>Start giving it real work</h3>
+            <div class="install__examples">
+              <div class="install__example">"Investigate why this worker keeps stalling"</div>
+              <div class="install__example">"Turn this rough idea into a durable execution plan"</div>
+              <div class="install__example">"Help me root cause this failure and shape the fix for agents"</div>
+              <div class="install__example">"Remember this project and help me build it properly later"</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EXAMPLE ===== -->
+  <section class="section section--alt" id="example">
+    <div class="container">
+      <p class="section__label">In practice</p>
+      <h2 class="section__title">Example: from vague request to durable work</h2>
+      <div class="example">
+        <div class="example__input">
+          <p class="example__label">You say:</p>
+          <blockquote class="example__quote">"This repo has too much tech debt, the preview flow is weird, and I want a durable fix instead of another patch."</blockquote>
+        </div>
+        <div class="example__output">
+          <p class="example__label">DarkExpert produces:</p>
+          <div class="example__cards">
+            <div class="example__card">
+              <div class="example__card-header">RCA tree</div>
+              <div class="example__card-body">
+                <p>Identifies likely root cause paths across the preview pipeline, surfaces coupling issues and missing validation.</p>
+              </div>
+            </div>
+            <div class="example__card">
+              <div class="example__card-header">Execution plan</div>
+              <div class="example__card-body">
+                <p>Structured task breakdown with correct ordering, dependencies, and chunk sizes tuned for agent execution.</p>
+              </div>
+            </div>
+            <div class="example__card">
+              <div class="example__card-header">Validation checklist</div>
+              <div class="example__card-body">
+                <p>Concrete checks for each step so agents and humans can verify progress without guessing.</p>
+              </div>
+            </div>
+            <div class="example__card">
+              <div class="example__card-header">Memory update</div>
+              <div class="example__card-body">
+                <p>Persists new context — decisions made, constraints discovered, patterns to watch — for future sessions.</p>
+              </div>
+            </div>
+            <div class="example__card">
+              <div class="example__card-header">Follow-up tasks</div>
+              <div class="example__card-body">
+                <p>Hardening work queued for after the initial fix lands. Prevents the same debt from returning.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FINAL CTA ===== -->
+  <section class="section section--cta" id="cta">
+    <div class="container">
+      <h2 class="cta__title">Stop hand-translating your work for agents</h2>
+      <p class="cta__text">DarkExpert is the expert layer between your brain and the dark factory. Install it, give it real work, and let it turn chaos into durable execution.</p>
+      <div class="cta__buttons">
+        <a href="#install" class="btn btn--primary btn--lg">Install DarkExpert</a>
+        <a href="#" class="btn btn--secondary btn--lg">Read setup guide</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="nav__logo-icon">◆</span> DarkExpert
+      </div>
+      <div class="footer__links">
+        <a href="#">Docs</a>
+        <a href="#">GitHub</a>
+      </div>
+      <p class="footer__copy">Built for the dark factory.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
