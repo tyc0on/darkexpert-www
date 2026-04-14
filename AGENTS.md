@@ -12,6 +12,7 @@ This repo is the public front door for Dark Factory. Keep guidance short and rou
 - Product framing: [docs/product-specs/site-positioning.md](/srv/dark/sites/darkexpert.com/docs/product-specs/site-positioning.md)
 - Design direction: [docs/design-docs/brand-system.md](/srv/dark/sites/darkexpert.com/docs/design-docs/brand-system.md)
 - Active plans: [docs/exec-plans/active](/srv/dark/sites/darkexpert.com/docs/exec-plans/active)
+- Site cutover workflow: [site-cutover-harness.md](/srv/dark/docs/references/site-cutover-harness.md)
 
 ## Rules
 - Keep secrets out of `public_html` and repo-tracked docs.
