@@ -1,0 +1,7 @@
+# darkexpert.com
+
+Public website for DarkExpert, the front door to Dark Factory.
+
+Future GitHub repo: `tyc0on/darkexpert-www`
+
+The site should explain the thesis, the workflow, and the offer with enough specificity that a serious technical buyer understands why this is not just another coding assistant landing page.
