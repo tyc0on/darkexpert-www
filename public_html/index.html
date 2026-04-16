@@ -196,8 +196,8 @@
           <div class="install__step-body">
             <h3>Install</h3>
             <div class="code-block">
-              <pre><code>npm install -g darkexpert@latest</code></pre>
-              <button class="code-block__copy" data-copy="npm install -g darkexpert@latest" aria-label="Copy command">
+              <pre><code>curl -fsSL https://raw.githubusercontent.com/tyc0on/DarkExpert/main/scripts/install.sh | bash</code></pre>
+              <button class="code-block__copy" data-copy="curl -fsSL https://raw.githubusercontent.com/tyc0on/DarkExpert/main/scripts/install.sh | bash" aria-label="Copy command">
                 <span class="code-block__copy-icon">⎘</span>
                 <span class="code-block__copy-text">Copy</span>
               </button>
@@ -223,17 +223,30 @@
             <h3>Connect your stack</h3>
             <p>During onboarding, DarkExpert guides you through:</p>
             <ul class="install__checklist">
-              <li>API auth setup (OpenAI, Anthropic, or compatible)</li>
-              <li>Name your expert instance</li>
-              <li>Choose communication surface</li>
-              <li>Link Telegram if supported</li>
-              <li>Point at project folders</li>
-              <li>Set memory and workspace paths</li>
+              <li>OpenAI OAuth or compatible provider setup</li>
+              <li>Owner-only Telegram setup</li>
+              <li>Workspace continuity bootstrap (`SOUL.md`, `MEMORY.md`, `HARNESS.md`)</li>
+              <li>Operator tool usage guidance for Codex, Copilot, and Claude Code</li>
+              <li>Daemon install and service startup</li>
             </ul>
           </div>
         </div>
         <div class="install__step">
           <div class="install__step-num">4</div>
+          <div class="install__step-body">
+            <h3>Keep it current</h3>
+            <div class="code-block">
+              <pre><code>darkexpert update</code></pre>
+              <button class="code-block__copy" data-copy="darkexpert update" aria-label="Copy command">
+                <span class="code-block__copy-icon">⎘</span>
+                <span class="code-block__copy-text">Copy</span>
+              </button>
+            </div>
+            <p>DarkExpert should have one operator story: install with curl, configure with onboarding, update with `darkexpert update`.</p>
+          </div>
+        </div>
+        <div class="install__step">
+          <div class="install__step-num">5</div>
           <div class="install__step-body">
             <h3>Start giving it real work</h3>
             <div class="install__examples">
